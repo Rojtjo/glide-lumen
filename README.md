@@ -1,4 +1,4 @@
-# Glide adapter for Laravel
+# Glide adapter for Lumen
 
 [![Author](http://img.shields.io/badge/author-@reinink-blue.svg?style=flat-square)](https://twitter.com/reinink)
 [![Latest Version](https://img.shields.io/github/release/thephpleague/glide-laravel.svg?style=flat-square)](https://github.com/thephpleague/glide-laravel/releases)
@@ -10,7 +10,7 @@
 ## Installation
 
 ```bash
-$ composer require league/glide-laravel
+$ composer require rojtjo/glide-lumen
 ```
 
 ## Documentation

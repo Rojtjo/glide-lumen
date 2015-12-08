@@ -1,6 +1,6 @@
 {
-    "name": "league/glide-laravel",
-    "description": "Glide adapter for Laravel",
+    "name": "rojtjo/glide-lumen",
+    "description": "Glide adapter for Lumen",
     "homepage": "http://glide.thephpleague.com",
     "license": "MIT",
     "authors" : [
@@ -11,11 +11,11 @@
         }
     ],
     "require": {
-        "laravel/framework": ">=4.0",
+        "laravel/lumen-framework": ">=5.0",
         "league/flysystem": "^1.0",
         "league/glide": "dev-master",
         "league/glide-symfony": "dev-master",
-        "php": ">=5.4"
+        "php": ">=5.5.9"
     },
     "require-dev": {
         "mockery/mockery": "^0.9",
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "League\\Glide\\": "src/"
+            "Rojtjo\\Glide\\": "src/"
         }
     }
 }
